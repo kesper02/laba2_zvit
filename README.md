@@ -21,7 +21,7 @@ class Figure:
         self.length = length
 ```
 
-![Результат assert тестування](Screenshot_1.png)
+![](photos/Screenshot_1.png)
 
 **Результати тестування:**
 - При спробі створити фігуру з від'ємною довжиною отримуємо помилку
@@ -45,7 +45,7 @@ class TestFigure(unittest.TestCase):
         self.assertEqual(f.get_figure_length(), 10)
 ```
 
-![Результати unittest](Screenshot_4.png)
+![](photos/Screenshot_4.png)
 
 ### 3. Тестування з pytest
 
@@ -55,11 +55,10 @@ class TestFigure(unittest.TestCase):
 poetry run pytest --cov-figure test_figure.py
 ```
 
-![Результати pytest](Screenshot_5.png)
+![](photos/Screenshot_5.png)
 
 ### 4. Аналіз покриття коду
-
-![Звіт про покриття коду](Screenshot_6.png)
+![](photos/Screenshot_6.png)
 
 **Результати:**
 - Загальне покриття коду: 88%
