@@ -20,8 +20,8 @@ class Figure:
         self.type = type
         self.length = length
 ```
-
 ![](photos/Screenshot_1.png)
+![](photos/Screenshot_2.png)
 
 **Результати тестування:**
 - При спробі створити фігуру з від'ємною довжиною отримуємо помилку
